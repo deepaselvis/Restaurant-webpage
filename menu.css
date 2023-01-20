@@ -1,0 +1,306 @@
+.head {
+  margin-top: -3.2%;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(29, 6, 6);
+  top: 0;
+  left: 0;
+}
+.head1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: yellowgreen;
+}
+.head2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  color: yellowgreen;
+}
+.h3 {
+  text-align: center;
+  color: rgb(25, 212, 72);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.veg {
+  padding-left: 20%;
+  color: #fb2576;
+}
+.nv {
+  padding-left: 10%;
+  padding-right: 20%;
+  color: #fb2576;
+}
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+.con img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.i {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.des {
+  margin: auto 1.5rem;
+}
+
+.t {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #ff9e9e;
+}
+
+.des p {
+  font-size: 1.4rem;
+  color: White;
+  font-weight: 500;
+}
+
+.des .pr {
+  color: white;
+  font-weight: 700;
+}
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: cursive;
+}
+#veg {
+  text-align: center;
+  padding-left: 15%;
+}
+#nv {
+  text-align: center;
+  padding-left: 15%;
+}
+.veg:hover {
+  color: aliceblue;
+  font-size: 40px;
+}
+.nv:hover {
+  color: aliceblue;
+  font-size: 40px;
+}
+.vh {
+  font-size: 40px;
+  color: yellowgreen;
+}
+.hn {
+  font-size: 40px;
+  color: yellowgreen;
+}
+footer {
+  bottom: 0;
+  width: cover;
+}
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Cookie", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footer-distributed .footer-center i {
+  margin-left: 0;
+}
+/* The navbar */
+.topnav {
+  overflow: hidden;
+
+  align-items: right;
+  align-content: right;
+  text-align: right;
+  background-color: #ddd;
+}
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: #141414;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(73, 68, 68);
+  color: rgb(238, 231, 231);
+}
+.top-left {
+  position: absolute;
+  left: 10px;
+  color: white;
+  float: left;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
